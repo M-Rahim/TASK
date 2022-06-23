@@ -1,0 +1,143 @@
+.navbar {
+    margin-top: -26px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.logo {
+    margin: -16px 0px 0px 68px;
+}
+
+nav {
+    float: right;
+}
+
+.logo img {
+    float: left;
+    margin-top: 20px;
+    margin-left: -8px;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: raleway;
+}
+
+
+/* nav bar css ends here */
+
+.space {
+    margin-top: 10px;
+}
+
+.first_back {
+    margin-bottom: -200px;
+    height: 1024px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(background_1.jpg);
+}
+
+.first_content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 25px;
+}
+
+#heading_1 {
+    margin-top: 18rem;
+}
+
+#para_1 {
+    line-height: 0.4;
+    color: white;
+    font-size: 19px;
+    margin-top: 37px;
+}
+
+#search_1 {
+    padding: 0px 0px 0px 18px;
+    width: 29rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin-top: 17px;
+}
+
+#search_div {
+    display: flex;
+    flex-direction: row;
+}
+
+#join_btn {
+    padding: 0px 20px 1px 31px;
+    background-color: #A8FFF0;
+    height: 51px;
+    width: 133px;
+    font-size: 18px;
+    margin: 16px 0px 0px 11px;
+    border-radius: 5px;
+}
+
+
+/* first background ends here */
+
+.img_logos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8rem;
+}
+
+.im_logo {
+    height: 26px;
+    margin-left: 65px;
+}
+
+
+/* second background starts here */
+
+.second_back {
+    background-image: url(background_2.png);
+    height: 1024px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+}
+
+.second_content {
+    padding: 14rem 0rem 0rem 8rem;
+    line-height: 0.7;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 19px;
+}
+
+#about_heading {
+    margin-bottom: 3.5rem;
+}
+
+#read_my {
+    padding: 0px 20px 1px 31px;
+    background-color: #A8FFF0;
+    height: 51px;
+    width: 170px;
+    font-size: 18px;
+    margin: 16px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+#text_center {
+    text-align: center;
+}
+
+.three_divides {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
